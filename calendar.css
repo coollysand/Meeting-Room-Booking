@@ -1,0 +1,91 @@
+#calendar{
+	width:350px;
+	display:block;
+	float:left;
+}
+
+#calendar ul{
+	display:block;
+	width:350px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#calendar li{
+	display:block;
+	width:45px;
+	margin:1px;
+	padding:1px;
+	float:left;
+	text-align:center;
+	background-color:#000000;
+}
+
+#c_head{
+	width:342px;
+	display:block;
+	float:left;
+}
+#c_back{
+	width:50px;
+	display:block;
+	float:left;
+	text-align:center;
+	background-color:#CCFF99;
+}
+#c_month{
+	width:242px;
+	display:block;
+	float:left;
+	text-align:center;
+	background-color:#99CC66;
+}
+#c_next{
+	width:50px;
+	display:block;
+	float:left;
+	text-align:center;
+	background-color:#CCFF99;
+}
+
+.c_h_day{
+	display:block;
+	width:45px;
+	float:left;
+	text-align:center;
+	background-color:#FF66CC;
+}
+.c_today{
+	display:block;
+	width:45px;
+
+	float:left;
+	text-align:center;
+	background-color:#FFCC00;
+}
+.c_day{
+	display:block;
+	width:45px;
+
+	float:left;
+	text-align:center;
+	background-color:#FFE1F0;
+}
+a.clink:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.clink:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+a.clink:hover {
+	color: #FFCC00;
+	text-decoration: none;
+}
+a.clink:active {
+	color: #FFFF00;
+	text-decoration: none;
+}
+
